@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>プライバシー説明 | Nagi Works Video Planning</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><a href="index.html" class="brand">Nagi Works</a><nav aria-label="メイン"><a href="index.html">ツール紹介</a><a href="privacy.html" aria-current="page">プライバシー</a></nav></header>
+<main>
+  <p class="eyebrow">PRIVACY</p>
+  <h1>プライバシー説明</h1>
+  <p class="lead">Nagi Works Video Planning における、公開動画情報の取り扱いについて。</p>
+  <aside class="notice"><strong>確認用の下書き・未公開</strong><p>開発中の設計を説明する文書です。実データによる競合分析は未有効化です。問い合わせ先と、実装に一致する取り扱いを確定し、公開前に更新します。</p></aside>
+  <section><h2>1. 運営者と問い合わせ先</h2><dl><dt>サービス名</dt><dd>Nagi Works Video Planning</dd><dt>運営者</dt><dd class="placeholder">Nagi Works</dd><dt>問い合わせ先</dt><dd class="placeholder">Zx6Y5Kh7NrQSF8qQ@gmail.com</dd></dl><p>利用者は運営者本人です。一般向けの利用者登録は提供していません。</p></section>
+  <section><h2>2. 取得を予定する情報と目的</h2><p>YouTube API Services を利用して、企画に関係する公開動画の動画 ID、タイトル、説明、公開日時、チャンネル識別情報を取得する予定です。必要に応じて動画の長さや公開統計情報も利用します。</p><p>目的は、公開情報の整理と、運営者自身の動画企画の検討です。参照したデータと、AI を利用した解釈・仮説・編集上の判断を区別します。</p><p>初期の設計では、コメント、字幕、動画・音声ファイル、サムネイル画像を取得しません。Google アカウントへの OAuth 認可による非公開情報へのアクセスや、YouTube への書き込みは行わない設計です。</p></section>
+  <section><h2>3. 処理先と保存先</h2><p>Anthropic が提供する Claude Code のクラウド環境で処理し、関連する公開メタデータを Claude による整理に利用する予定です。許容されるメモや企画は Notion に、一時的な作業データはクラウドの実行環境に保存することを想定しています。</p><p>実運用前に、利用する契約・設定に基づく提供先、保持期間、モデル改善への利用設定、削除方法を確認し、この説明に反映します。現時点では、実データを使う一連の処理について、各提供者での取り扱いを検証し終えていません。</p></section>
+  <section><h2>4. 保存期間・更新・削除</h2><p>YouTube API データに適用される要件に従い、対象となる公開メタデータは取得から30暦日以内の更新または削除を行う設計です。対象データのコピーや、そのデータに依存する記述も、適用される要件に応じて管理します。</p><p>申請したことだけを理由に保存期間を延長することはありません。保持期間や利用条件が異なるデータを扱う場合は、必要な許可と条件を確認したうえで説明を更新します。</p><p>現在確認済みの試作は、架空データを保存した2つのファイルから参照情報を手動で除去するものです。実データの自動削除、Notion の履歴、ログ、処理事業者の保存領域やバックアップを含む管理は未実装・未検証です。実運用前に保存先ごとの対応を確定します。</p></section>
+  <section><h2>5. 問い合わせ・削除の相談</h2><p>対象となる動画 URL や記録、相談内容を、上記の連絡先へお知らせください。API キー、パスワードなどの認証情報は送らないでください。適用される規約・法令に従って確認・対応する手順を、運用開始前に整備します。</p><p>このツール内の情報の削除は、YouTube 上の元のコンテンツを削除するものではありません。将来 OAuth 認可を導入する場合は、認可の取り消し方法と関連データの削除方法を追加します。</p></section>
+  <section><h2>6. この説明サイトについて</h2><p>このサイトのページには、運営者独自のアクセス解析、広告、入力フォーム、Cookie を使用する処理を組み込んでいません。GitHub Pages で公開する予定です。ホスティング事業者による通信情報の取り扱いは、<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub のプライバシーに関する声明</a>をご確認ください。</p></section>
+  <section><h2>7. 関連する規約と改定</h2><ul><li><a href="https://www.youtube.com/t/terms">YouTube 利用規約</a></li><li><a href="https://policies.google.com/privacy">Google プライバシーポリシー</a></li><li><a href="https://www.anthropic.com/legal/privacy">Anthropic プライバシーポリシー</a></li><li><a href="https://www.notion.com/privacy">Notion プライバシーポリシー</a></li></ul><p>データの取り扱いや利用機能を変更するときは、この説明を更新します。実データを扱う機能の利用前に、運営者が最新版の説明と適用される規約を確認します。</p></section>
+</main>
+<footer>Nagi Works Video Planning $00B7 下書き更新日：2026年10月20日</footer>
+</body>
+</html>
